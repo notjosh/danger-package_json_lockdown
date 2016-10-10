@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = 'danger-package_json_lockdown'
   spec.version       = PackageJsonLockdown::VERSION
   spec.authors       = ['Joshua May']
-  spec.email         = ['notjosh@gmail.com']
-  spec.description   = %q{A short description of danger-package_json_lockdown.}
-  spec.summary       = %q{A longer description of danger-package_json_lockdown.}
-  spec.homepage      = 'https://github.com/Joshua May/danger-package_json_lockdown'
+  spec.email         = ['josh@notjosh.com']
+  spec.description   = %q{Force locking down of version numbers in package.json.}
+  spec.summary       = %q{A plugin for Danger that allows locking down of version numbers found in package.json}
+  spec.homepage      = 'https://github.com/notjosh/danger-package_json_lockdown'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
