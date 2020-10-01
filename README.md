@@ -2,7 +2,7 @@
 
 ### package_json_lockdown
 
-Force locking down of version numbers in package.json
+Force locking down of version numbers in package.json on site
 
 Shrinkwrap isn't the solution you want it to be, and none of the other tools
 quite do what you want. So you'll get fed up and force manual management of
